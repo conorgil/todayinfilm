@@ -1,4 +1,4 @@
-movies = {
+export movies = {
   "November 4": [
     "movie A",
     "movie B",
