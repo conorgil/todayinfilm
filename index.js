@@ -3,6 +3,8 @@ const monthName = today.toLocaleString('default', { month: 'long' });
 const dayNumber = today.getDate();
 const humanReadableDate = `${monthName} ${dayNumber}`;
 
+import { movies } from "./movies.js
+
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
