@@ -18,6 +18,7 @@ movies = {
   "November 12": [
     "movie 123",
     "movie 456",
-    "movie XYZ"
+    "movie XYZ",
+    "We did it!"
   ]
 }
