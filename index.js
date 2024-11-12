@@ -3,10 +3,20 @@ const monthName = today.toLocaleString('default', { month: 'long' });
 const dayNumber = today.getDate();
 const humanReadableDate = `${monthName} ${dayNumber}`;
 
-function main() {
-  console.log(humanReadableDate);
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
 
-  // Pick one of the movies for today's date from the list at random
+function main() {
+  console.log("Today is " + humanReadableDate);
+
+  list = movies[humanReadableDate];
+
+  index = getRandomInt(list.length);
+
+  title = list[index];
+
+  console.log("Chosen movie is: " + title);
 
   // Put the name of the selected movie into the text box on the webiste
 }
