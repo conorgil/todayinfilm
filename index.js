@@ -4,14 +4,11 @@ const dayNumber = today.getDate();
 const humanReadableDate = `${monthName} ${dayNumber}`;
 
 function main() {
-  console.log(humanReadableDate); // Output: November 4
-
-  // Get list of movie options from the Google Sheet somehow
+  console.log(humanReadableDate);
 
   // Pick one of the movies for today's date from the list at random
 
   // Put the name of the selected movie into the text box on the webiste
-
 }
 
 main();
