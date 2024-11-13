@@ -1,4 +1,4 @@
-export movies = {
+export const movies = {
   "November 4": [
     "movie A",
     "movie B",
@@ -15,10 +15,10 @@ export movies = {
     "movie C"
   ],
   
-  "November 12": [
+  "November 13": [
     "movie 123",
     "movie 456",
     "movie XYZ",
     "We did it!"
   ]
-}
+};

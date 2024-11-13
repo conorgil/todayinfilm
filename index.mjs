@@ -5,22 +5,38 @@ const humanReadableDate = `${monthName} ${dayNumber}`;
 
 import { movies } from "./movies.mjs"
 
+function onPageIsLoaded(onPageLoadedListener) {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', onPageLoadedListener);
+  } else {
+    onPageLoadedListener();
+  }
+}
+
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-function main() {
+function getRandomMovieTitleForToday() {
   console.log("Today is " + humanReadableDate);
 
-  list = movies[humanReadableDate];
+  let list = movies[humanReadableDate];
 
-  index = getRandomInt(list.length);
+  let index = getRandomInt(list.length);
 
-  title = list[index];
+  let title = list[index];
 
   console.log("Chosen movie is: " + title);
 
-  // Put the name of the selected movie into the text box on the webiste
+  return title;
 }
 
-main();
+const onButtonClicked = (event) => {
+  const para = document.getElementById('result');
+  para.textContent = getRandomMovieTitleForToday();
+}
+
+onPageIsLoaded(() => {
+  const button = document.querySelector("button");
+  button.addEventListener("click", onButtonClicked);
+});
