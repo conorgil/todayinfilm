@@ -622,8 +622,10 @@ export const movies = {
       "title": "National Treasure",
       "imdb_id": "tt0368891"
     },
-    "movie XYZ",
-    "We did it!",
+      {
+      "title": "In Cold Blood",
+      "imdb_id": "tt0061809"
+    },
     {
       "title": "The Incredibles",
       "imdb_id": "tt0317705"
@@ -634,7 +636,10 @@ export const movies = {
     }
   ],
   "November 15": [
-    "In Cold Blood"
+    {
+      "title": "In Cold Blood",
+      "imdb_id": "tt0061809"
+    }
   ],
   "November 16": [
     "Children of Men"
@@ -642,9 +647,6 @@ export const movies = {
   "November 17": [
     "The American President"
   ],
-  "November 15": [],
-  "November 16": [],
-  "November 17": [],
   "November 18": [],
   "November 19": [],
   "November 20": [],
