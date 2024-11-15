@@ -325,7 +325,11 @@ export const movies = {
     "We did it!",
     "The Incredibles because it is the date of Elastigirl's retirement."
   ],
-  "November 14": [],
+  "November 14": [
+    "MKW movie 1",
+    "Hello Hello Movie 2",
+    'THIRD MOVIE TEST"
+  ],
   "November 15": [],
   "November 16": [],
   "November 17": [],
