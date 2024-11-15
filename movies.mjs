@@ -64,7 +64,8 @@ export const movies = {
   ],
   "February 1": [],
   "February 2": [
-    "Groundhogs Day"
+    "Groundhogs Day",
+    "Michael Clayton"
   ],
   "February 3": [],
   "February 4": [
@@ -85,7 +86,9 @@ export const movies = {
   ],
   "February 12": [],
   "February 13": [],
-  "February 14": [],
+  "February 14": [
+    "Picnic at Hanging Rock"
+  ],
   "February 15": [],
   "February 16": [],
   "February 17": [],
@@ -105,7 +108,8 @@ export const movies = {
   ],
   "February 24": [],
   "February 25": [
-    "Cool Runnings"
+    "Cool Runnings",
+    "Drive My Car"
   ],
   "February 26": [],
   "February 27": [],
@@ -132,7 +136,8 @@ export const movies = {
     "Practical Magic"
   ],
   "March 9": [
-    "The Rock"
+    "The Rock",
+    "Good Night and Good Luck"
   ],
   "March 10": [],
   "March 11": [
@@ -140,7 +145,8 @@ export const movies = {
   ],
   "March 12": [],
   "March 13": [
-    "Sound of Music"
+    "Sound of Music",
+    "The Devil Wears Prada"
   ],
   "March 14": [],
   "March 15": [
@@ -212,7 +218,8 @@ export const movies = {
   "April 18": [],
   "April 19": [],
   "April 20": [
-    "Clerks"
+    "Clerks",
+    "Nick and Nora's Infinite Playlist"
   ],
   "April 21": [
     "Marie Antoinette"
@@ -237,7 +244,8 @@ export const movies = {
     "Inglorious Basterds"
   ],
   "May 1": [
-    "Four Weddings and a Funeral"
+    "Four Weddings and a Funeral",
+    "Wicker Man"
   ],
   "May 2": [
     "Zero Dark Thirty"
@@ -354,7 +362,8 @@ export const movies = {
     "Independence Day"
   ],
   "July 5": [
-    "Old Boy"
+    "Old Boy",
+    "Gone Girl"
   ],
   "July 6": [],
   "July 7": [
@@ -436,7 +445,8 @@ export const movies = {
   "August 16": [],
   "August 17": [],
   "August 18": [
-    "Wet Hot American Summer"
+    "Wet Hot American Summer",
+    "Texas Chainsaw Massacre"
   ],
   "August 19": [],
   "August 20": [],
@@ -484,7 +494,8 @@ export const movies = {
     "Saw"
   ],
   "September 11": [
-    "25th Hour"
+    "25th Hour",
+    "Remember Me"
   ],
   "September 12": [],
   "September 13": [
@@ -504,7 +515,8 @@ export const movies = {
   "September 21": [],
   "September 22": [],
   "September 23": [
-    "Air Force One"
+    "Air Force One",
+    "Batman Returns"
   ],
   "September 24": [],
   "September 25": [],
@@ -700,9 +712,11 @@ export const movies = {
   "December 28": [],
   "December 29": [],
   "December 30": [
-    "The Thin Man"
+    "The Thin Man",
+    "Apocalypse Now"
   ],
   "December 31": [
-    "200 Cigarettes"
+    "200 Cigarettes",
+    "Poseidon Adventure"
   ]
 };
