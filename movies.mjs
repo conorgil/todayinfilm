@@ -328,7 +328,7 @@ export const movies = {
   "November 14": [
     "MKW movie 1",
     "Hello Hello Movie 2",
-    'THIRD MOVIE TEST"
+    "THIRD MOVIE TEST"
   ],
   "November 15": [],
   "November 16": [],
