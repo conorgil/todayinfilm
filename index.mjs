@@ -2,6 +2,7 @@ const today = new Date();
 const monthName = today.toLocaleString('default', { month: 'long' });
 const dayNumber = today.getDate();
 const humanReadableDate = `${monthName} ${dayNumber}`;
+const omdbImdbIdTemplate = 'https://www.omdbapi.com/?apikey=7b748201&i=';
 
 import { movies } from "./movies.mjs"
 
@@ -17,23 +18,42 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-function getRandomMovieTitleForToday() {
+async function getMoviePosterUrl(imdbId) {
+  let response = await fetch(omdbImdbIdTemplate + imdbId)
+  console.log("response = " + JSON.stringify(response));
+  let responseJson = await response.json();
+  return responseJson["Poster"];
+}
+
+async function getRandomMovieForToday() {
   console.log("Today is " + humanReadableDate);
 
   let list = movies[humanReadableDate];
 
   let index = getRandomInt(list.length);
 
-  let title = list[index];
-
-  console.log("Chosen movie is: " + title);
-
-  return title;
+  let movie = list[index];
+  console.log("Chosen movie is: " + JSON.stringify(movie));
+  if (typeof movie == 'string') {
+    movie = {title: movie};
+  } else if (typeof movie == 'object') {
+    let posterUrl = await getMoviePosterUrl(movie.imdb_id)
+    movie.posterUrl = posterUrl;
+  }
+  return movie;
 }
 
-const onButtonClicked = (event) => {
+const onButtonClicked = async (event) => {
   const para = document.getElementById('result');
-  para.textContent = getRandomMovieTitleForToday();
+  const poster = document.getElementById('poster');
+  let movie = await getRandomMovieForToday();
+  para.textContent = movie.title;
+
+  if (movie.posterUrl) {
+    poster.src = movie.posterUrl;
+  } else {
+    poster.src = "";
+  }
 }
 
 onPageIsLoaded(() => {
