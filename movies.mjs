@@ -642,10 +642,16 @@ export const movies = {
     }
   ],
   "November 16": [
-    "Children of Men"
+      {
+      "title": "Children of Men",
+      "imdb_id": "tt0206634"
+    }
   ],
   "November 17": [
-    "The American President"
+    {
+      "title": "The American President",
+      "imdb_id": "tt0112346"
+    }
   ],
   "November 18": [],
   "November 19": [],
