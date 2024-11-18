@@ -658,34 +658,67 @@ export const movies = {
   "November 20": [],
   "November 21": [],
   "November 22": [
-    "J.F.K."
+     {
+      "title": "JFK",
+      "imdb_id": "tt0102138"
+    }
   ],
   "November 23": [],
   "November 24": [],
   "November 25": [],
   "November 26": [
-    "Pride & Prejudice"
+      {
+      "title": "Pride & Prejudice",
+      "imdb_id": "tt0414387"
+    },
+     {
+      "title": "Pride and Prejudice",
+      "imdb_id": "tt0112130"
+    },
+     {
+      "title": "Pride and Prejudice and Zombies",
+      "imdb_id": "tt1374989"
+    },
   ],
   "November 27": [],
   "November 28": [
-    "Prisoners"
+     {
+      "title": "Prisoners",
+      "imdb_id": "tt1392214"
+    },
   ],
   "November 29": [
-    "Raising Arizona"
+     {
+      "title": "Raising Arizona",
+      "imdb_id": "tt0093822"
+    },
   ],
   "November 30": [],
   "December 1": [],
   "December 2": [
-    "Casablanca"
+    {
+      "title": "Casablanca",
+      "imdb_id": "tt0034583"
+    },
   ],
   "December 3": [
-    "Hunt for Red October"
+    {
+      "title": "The Hunt for Red October",
+      "imdb_id": "tt0099810"
+    },
   ],
   "December 4": [
-    "Judas and the Black Messiah"
+    {
+      "title": "Judas and the Black Messiah",
+      "imdb_id": "tt9784798"
+    },
+  
   ],
   "December 5": [
-    "Close Encounters of the Third Kind"
+      {
+      "title": "Close Encounters of the Third Kind",
+      "imdb_id": "tt0075860"
+    },
   ],
   "December 6": [],
   "December 7": [],
@@ -697,50 +730,98 @@ export const movies = {
   ],
   "December 12": [],
   "December 13": [
-    "Twelve Monkeys"
+    {
+      "title": "12 Monkeys",
+      "imdb_id": "tt0114746"
+    },
+  
   ],
   "December 14": [
-    "The Truman Show"
+    {
+      "title": "The Truman Show",
+      "imdb_id": "tt0120382"
+    },
   ],
   "December 15": [],
   "December 16": [
-    "Man on Fire"
+    {
+      "title": "Man on Fire",
+      "imdb_id": "tt0328107"
+    },
   ],
   "December 17": [],
   "December 18": [
-    "The Holiday"
+    {
+      "title": "The Holiday",
+      "imdb_id": "tt0457939"
+    },
+    
   ],
   "December 19": [
-    "Elf"
+    {
+      "title": "Elf",
+      "imdb_id": "tt0319343"
+    },
+    
   ],
   "December 20": [],
   "December 21": [
-    "Sunset Boulevard"
+     {
+      "title": "Sunset Boulevard",
+      "imdb_id": "tt0043014"
+    },
   ],
   "December 22": [
-    "Home Alone"
+    {
+      "title": "Home Alone",
+      "imdb_id": "tt0099785"
+    },
   ],
   "December 23": [
-    "Scrooged"
+    {
+      "title": "Scrooged",
+      "imdb_id": "tt0096061"
+    },
   ],
   "December 24": [
-    "Die Hard"
+    {
+      "title": "Die Hard",
+      "imdb_id": "tt0095016"
+    },
   ],
   "December 25": [
-    "Muppet Christmas Carol"
+      {
+      "title":  "The Muppet Christmas Carol",
+      "imdb_id": "tt0104940"
+    },
   ],
   "December 26": [],
   "December 27": [
-    "The Drop"
+     {
+      "title":  "The Drop",
+      "imdb_id": "tt1600196"
+    },
   ],
   "December 28": [],
   "December 29": [],
   "December 30": [
-    "The Thin Man",
-    "Apocalypse Now"
+     {
+      "title":  "The Thin Man",
+      "imdb_id": "tt0025878"
+    },
+     {
+      "title":  "Apocalypse Now",
+      "imdb_id": "tt0078788"
+    },
   ],
   "December 31": [
-    "200 Cigarettes",
-    "Poseidon Adventure"
+    {
+      "title":  "200 Cigarettes",
+      "imdb_id": "tt0137338"
+    },
+    {
+      "title":  "Poseidon Adventure",
+      "imdb_id": "tt0069113"
+    },
   ]
 };
