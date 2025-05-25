@@ -285,9 +285,9 @@ export const movies = {
   ],
   "May 24": [],
   "May 25": [
-     {
-      "title":  "Carrie - On May 25th, Carrie attends the prom."
-      "imdb_id": "tt0074285"
+      {
+      "title":  "The Muppet Christmas Carol",
+      "imdb_id": "tt0104940"
     },
   ],
   "May 26": [],
