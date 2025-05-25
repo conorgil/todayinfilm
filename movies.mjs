@@ -286,8 +286,7 @@ export const movies = {
   "May 24": [],
   "May 25": [
      {
-      "title":  "Carrie"
-     "text": On May 25th, Carrie attends the prom
+      "title":  "Carrie - On May 25th, Carrie attends the prom."
       "imdb_id": "tt0074285"
     },
   ],
