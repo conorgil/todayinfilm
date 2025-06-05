@@ -44,11 +44,19 @@ async function getRandomMovieForToday() {
 }
 
 const onButtonClicked = async (event) => {
-  const para = document.getElementById('result');
-  const poster = document.getElementById('poster');
+  // Get random movie from array for today's date
   let movie = await getRandomMovieForToday();
-  para.textContent = movie.title;
 
+  // Update title
+  const title = document.getElementById('title');
+  title.textContent = movie.title;
+
+  // Update text
+  const text = document.getElementById('text');
+  text.textContent = movie.text;
+
+  // Update poster
+  const poster = document.getElementById('poster');
   if (movie.posterUrl) {
     poster.src = movie.posterUrl;
   } else {
