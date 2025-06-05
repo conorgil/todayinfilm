@@ -286,8 +286,8 @@ export const movies = {
   "May 24": [],
   "May 25": [
       {
-      "title":  "Carrie - On May 25th Carrie goes to the prom.",
-      "text"; "On May 25th Carrie goes to the prom"
+      "title":  "Carrie",
+      "text"; "On May 25th Carrie goes to the prom.",
       "imdb_id": "tt0074285"
     },
   ],
@@ -307,6 +307,8 @@ export const movies = {
   "June 4": [],
   "June 5": [
     "Ferris Bueller's Day Off"
+    "text"; "On June 5th, Ferris took the day off (duh).",
+    "imdb_id": "tt0091042"
   ],
   "June 6": [
     "Saving Private Ryan"
