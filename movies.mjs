@@ -306,9 +306,11 @@ export const movies = {
   "June 3": [],
   "June 4": [],
   "June 5": [
-    "Ferris Bueller's Day Off"
-    "text"; "On June 5th, Ferris took the day off (duh).",
-    "imdb_id": "tt0091042"
+      {
+      "title":  "Ferris Bueller's Day Off",
+      "text"; "On June 5th, Ferris took the day off (duh).",
+      "imdb_id": "tt0091042"
+    },
   ],
   "June 6": [
     "Saving Private Ryan"
