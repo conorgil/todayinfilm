@@ -308,7 +308,7 @@ export const movies = {
   "June 5": [
       {
       "title":  "Ferris Bueller's Day Off",
-      "text"; "On June 5th, Ferris took the day off (duh).",
+      "text": "On June 5th, Ferris took the day off (duh).",
       "imdb_id": "tt0091042"
     },
   ],
