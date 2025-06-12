@@ -332,8 +332,12 @@ export const movies = {
       "imdb_id": "tt0079116"
     },
   ],
-  "June 12": [
-    "When Harry Met Sally"
+  "June 12":  [
+      {
+      "title":  "When Harry Met Sally",
+      "text": "June 12th is the day after Uchicago's 1977 graduation.",
+      "imdb_id": "tt0098635"
+    },
   ],
   "June 13": [],
   "June 14": [],
