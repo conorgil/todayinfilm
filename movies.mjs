@@ -326,7 +326,11 @@ export const movies = {
   ],
   "June 10": [],
   "June 11": [
-    "Escape from Alcatraz"
+      {
+      "title":  "Escape from Alcatraz",
+      "text": "On the night of June 11, 1962, inmates Frank Morris and brothers Clarence and John Anglin escaped from Alcatraz.",
+      "imdb_id": "tt0079116"
+    },
   ],
   "June 12": [
     "When Harry Met Sally"
