@@ -6,8 +6,10 @@ export const movies = {
     "No movie today go for a walk"
   ],
   "January 3": [
-    "Life and Death of Colonel Blimp"
-  ],
+    {
+      "title":  "Life and Death of Colonel Blimp",
+      "imdb_id": "tt0036112"
+    },
   "January 4": [
     "My Cousin Vinny"
   ],
