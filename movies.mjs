@@ -10,6 +10,7 @@ export const movies = {
       "title":  "Life and Death of Colonel Blimp",
       "imdb_id": "tt0036112"
     },
+    ]
   "January 4": [
     "My Cousin Vinny"
   ],
